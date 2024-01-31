@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0021852B689FF900085840 /* SubscriptionCloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0021842B689FF900085840 /* SubscriptionCloseButtonView.swift */; };
+		AC0021872B68A44A00085840 /* SubscriptionPlanButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0021862B68A44A00085840 /* SubscriptionPlanButtonView.swift */; };
+		AC503E632B638B2C0039CEDA /* SubscriptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC503E622B638B2C0039CEDA /* SubscriptionHelper.swift */; };
+		AC503E652B63AA610039CEDA /* GrapthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC503E642B63AA610039CEDA /* GrapthView.swift */; };
+		ACB08C072B6279D80042618B /* SpeakBUDDYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB08C062B6279D80042618B /* SpeakBUDDYApp.swift */; };
+		ACB08C092B6279D80042618B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB08C082B6279D80042618B /* ContentView.swift */; };
+		ACB08C0B2B6279D90042618B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB08C0A2B6279D90042618B /* Assets.xcassets */; };
+		ACB08C0F2B6279D90042618B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB08C0E2B6279D90042618B /* Preview Assets.xcassets */; };
+		ACB08C162B627A270042618B /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB08C152B627A270042618B /* SubscriptionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0021842B689FF900085840 /* SubscriptionCloseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCloseButtonView.swift; sourceTree = "<group>"; };
+		AC0021862B68A44A00085840 /* SubscriptionPlanButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPlanButtonView.swift; sourceTree = "<group>"; };
+		AC503E622B638B2C0039CEDA /* SubscriptionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionHelper.swift; sourceTree = "<group>"; };
+		AC503E642B63AA610039CEDA /* GrapthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapthView.swift; sourceTree = "<group>"; };
+		ACB08C032B6279D80042618B /* SpeakBUDDY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakBUDDY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB08C062B6279D80042618B /* SpeakBUDDYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBUDDYApp.swift; sourceTree = "<group>"; };
+		ACB08C082B6279D80042618B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACB08C0A2B6279D90042618B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB08C0C2B6279D90042618B /* SpeakBUDDY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeakBUDDY.entitlements; sourceTree = "<group>"; };
+		ACB08C0E2B6279D90042618B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACB08C152B627A270042618B /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB08C002B6279D80042618B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0021802B68887100085840 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				AC503E622B638B2C0039CEDA /* SubscriptionHelper.swift */,
+				AC0021812B68889600085840 /* View */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		AC0021812B68889600085840 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACB08C152B627A270042618B /* SubscriptionView.swift */,
+				AC503E642B63AA610039CEDA /* GrapthView.swift */,
+				AC0021842B689FF900085840 /* SubscriptionCloseButtonView.swift */,
+				AC0021862B68A44A00085840 /* SubscriptionPlanButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACB08BFA2B6279D80042618B = {
+			isa = PBXGroup;
+			children = (
+				ACB08C052B6279D80042618B /* SpeakBUDDY */,
+				ACB08C042B6279D80042618B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB08C042B6279D80042618B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB08C032B6279D80042618B /* SpeakBUDDY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB08C052B6279D80042618B /* SpeakBUDDY */ = {
+			isa = PBXGroup;
+			children = (
+				ACB08C062B6279D80042618B /* SpeakBUDDYApp.swift */,
+				ACB08C082B6279D80042618B /* ContentView.swift */,
+				ACB08C0A2B6279D90042618B /* Assets.xcassets */,
+				ACB08C0C2B6279D90042618B /* SpeakBUDDY.entitlements */,
+				ACB08C0D2B6279D90042618B /* Preview Content */,
+				AC0021802B68887100085840 /* Subscription */,
+			);
+			path = SpeakBUDDY;
+			sourceTree = "<group>";
+		};
+		ACB08C0D2B6279D90042618B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACB08C0E2B6279D90042618B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB08C022B6279D80042618B /* SpeakBUDDY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB08C122B6279D90042618B /* Build configuration list for PBXNativeTarget "SpeakBUDDY" */;
+			buildPhases = (
+				ACB08BFF2B6279D80042618B /* Sources */,
+				ACB08C002B6279D80042618B /* Frameworks */,
+				ACB08C012B6279D80042618B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakBUDDY;
+			productName = SpeakBUDDY;
+			productReference = ACB08C032B6279D80042618B /* SpeakBUDDY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB08BFB2B6279D80042618B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ACB08C022B6279D80042618B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = ACB08BFE2B6279D80042618B /* Build configuration list for PBXProject "SpeakBUDDY" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB08BFA2B6279D80042618B;
+			productRefGroup = ACB08C042B6279D80042618B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB08C022B6279D80042618B /* SpeakBUDDY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB08C012B6279D80042618B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB08C0F2B6279D90042618B /* Preview Assets.xcassets in Resources */,
+				ACB08C0B2B6279D90042618B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB08BFF2B6279D80042618B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB08C092B6279D80042618B /* ContentView.swift in Sources */,
+				ACB08C072B6279D80042618B /* SpeakBUDDYApp.swift in Sources */,
+				AC0021852B689FF900085840 /* SubscriptionCloseButtonView.swift in Sources */,
+				AC0021872B68A44A00085840 /* SubscriptionPlanButtonView.swift in Sources */,
+				ACB08C162B627A270042618B /* SubscriptionView.swift in Sources */,
+				AC503E652B63AA610039CEDA /* GrapthView.swift in Sources */,
+				AC503E632B638B2C0039CEDA /* SubscriptionHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACB08C102B6279D90042618B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACB08C112B6279D90042618B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ACB08C132B6279D90042618B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpeakBUDDY/SpeakBUDDY.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBUDDY/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5M44XYC56;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.bitsbytes.SpeakBUDDY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACB08C142B6279D90042618B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpeakBUDDY/SpeakBUDDY.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBUDDY/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5M44XYC56;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.bitsbytes.SpeakBUDDY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB08BFE2B6279D80042618B /* Build configuration list for PBXProject "SpeakBUDDY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB08C102B6279D90042618B /* Debug */,
+				ACB08C112B6279D90042618B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB08C122B6279D90042618B /* Build configuration list for PBXNativeTarget "SpeakBUDDY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB08C132B6279D90042618B /* Debug */,
+				ACB08C142B6279D90042618B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB08BFB2B6279D80042618B /* Project object */;
+}
